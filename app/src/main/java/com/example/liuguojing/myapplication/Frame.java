@@ -14,7 +14,7 @@ public class Frame {
     public static void LogFame(Frame frame){
         Log.d("DEBUG","frame is x="+frame.x+"\ny="+frame.y+"\nwidth="+frame.width+"\nheight="+frame.height);
     }
-
+    //I change the frame
     Frame(int _x, int _y, int _width ,int _height){
         x = _x;y = _y;width = _width;height = _height;
     }
